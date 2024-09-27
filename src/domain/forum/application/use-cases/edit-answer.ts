@@ -6,7 +6,7 @@ import { NotAllowedError } from '@/core/errors/errors/not-allowed-error'
 import { UniqueEntityID } from '@/core/entities/unique-entity-id'
 import { AnswerAttachment } from '../../enterprise/entities/answer-attachment'
 import { AnswerAttachmentList } from '../../enterprise/entities/answer-attachment-list'
-import { AnswerAttachmentsRepository } from '../repositories/answer-attachment-repository'
+import { AnswerAttachmentsRepository } from '../repositories/answer-attachments-repository'
 
 interface EditAnswerUseCaseRequest {
   authorId: string
